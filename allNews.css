@@ -32,7 +32,6 @@ a:not(.japanLogo):hover {
 .main {
   display: flex;
   background-color: #EE694C;
-  background-color: purple;
 }
 .main > .article > .article1,
 .main > .article > .article2,

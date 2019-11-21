@@ -2,7 +2,6 @@
  display: flex;
   height: 10%;
   border: 2px solid darkred;
-  background: purple;
 }
 .container >.container-section {
 	flex: 1;
