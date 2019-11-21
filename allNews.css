@@ -1,0 +1,111 @@
+.container {
+ display: flex;
+  height: 10%;
+  border: 2px solid darkred;
+}
+@media (max-width: 1000px) {
+
+	.container {
+		display: block;
+	}
+	.profilePic {
+	height: 10%;
+	width: 10%;
+}
+}
+.container >.container-section {
+	flex: 1;
+	align-self: center;
+}
+a:link {
+  color: #E4287C;
+  text-decoration: none;
+}
+a:active {
+  color: green;
+  background-color: transparent;
+}
+a:not(.japanLogo):hover {
+  color: #E4287C;
+  background-color: transparent;
+}
+.main {
+  display: flex;
+  background-color: #EE694C;
+  background-color: purple;
+}
+.main > .article > .article1,
+.main > .article > .article2,
+.main > .article > .article3 {
+  border: 2px solid darkred;
+  flex-direction: row;
+}
+.japanShop {
+	padding: 10px;
+	height: 20%;
+	width: 20%;
+}
+.profilePic {
+	height: 30%;
+	width: 30%;
+}
+.japanPerson {
+	padding: 10px;
+	height: 20%;
+	width: 20%;
+}
+.japanTunnel {
+	padding: 10px;
+	height: 20%;
+	width: 20%;
+}
+.article > .article1 > p,
+.article > .article2 > p,
+.article > .article3 > p{
+	background: beige;
+	text-align: start;
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
+.main > nav, 
+.main > aside {
+  flex: 0 0 10vw;
+  background: beige;
+}
+.main > nav {
+  order: -1;
+}
+.main > advert {
+	flex-direction: column;
+	align-items: center;
+}
+.advert {
+	padding: 10px;
+	width: 90%;
+	height: 30%;
+}
+/*footer*/
+.footer .footer-content .social .images .twitter {	
+	width: 10%;
+	height: 10%;
+}
+.footer .footer-content .social .images .facebook {	
+	width: 10%;
+	height: 10%;
+}
+.footer .footer-section {
+	flex: 1;
+	border: 1px solid white;
+}
+.footer .footer-content .social {
+	padding: 5px;
+	text-align: center;
+}
+.footer .footer-content {
+  display: flex;
+  background-color: #C24641;
+  height: 10%;
+}
+/*//footer*/
