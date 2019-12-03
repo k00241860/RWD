@@ -4,17 +4,18 @@
 	<meta charset="UTF-8">
 	<title> Login page for index </title>
 	<link rel="stylesheet" href="Login.css">
+	<script defer src="validationLogin.js"></script>
 </head>
 <body>
 		<div class="wrapper">
-			<form action="index.html" class="form-area">
+			<form id="form" action="index.html" method="post" class="form-area" onsubmit="return validateForm()">
 			
 			<div class="details-area">
 				<label for="UserName">User Name</label>
-				<input type="text" name="" id="Uname">
+				<input type="text" name="Uname" id="Uname">
 				
 				<label for="password">Password</label>
-				<input type="text" name="" id="password">
+				<input type="text" name="password" id="password">
 				
 				<button type="submit">Login</button>
 			</div>

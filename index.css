@@ -40,11 +40,22 @@ a:hover {
 .container > div {
 	flex: 1;
 }
-
+#pic {
+	width:100%;
+	height:100%;
+}
+.smallPic {
+	width:95px;
+	height:71px;
+}
 .main {
   display: flex;
   flex: 1;
   background-color: #EE694C;
+}
+.smallPic {
+	width:95px;
+	height:71px;
 }
 .main > article {
   flex: 1;

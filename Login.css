@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-	background-image: url(images/japan-river.jfif);
+	background-image: url(images/book-background.jpg);
 	background-position: center center;
 }
 .wrapper {
@@ -24,7 +24,7 @@ body {
 .details-area input {
 	width: 100%;
 	background: transparent;
-	color: black;
+	color: white;
 	border-radius: 40px;
 }
 .details-area input,

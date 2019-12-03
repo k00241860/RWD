@@ -4,14 +4,15 @@
 	<meta charset="UTF-8">
 	<title> Profile Page </title>
 	<link rel="stylesheet" href="Profile.css">
+	<script defer src="validationProfile.js"></script>
 </head>
 <body>
 		<div class="wrapper">
-			<form action="index.html" class="form-area">
+			<form id="form" action="index.html" method="post" class="form-area" onsubmit="return validateForm()">
 			
 			<div class="details-area">
-				<label for="UserName">Article Name</label>
-				<input type="text" name="" id="Uname">
+				<label for="AName">Article Name</label>
+				<input type="text" name="Aname" id="Aname">
 				
 				<button class="back" type="submit">Back</button>
 				

@@ -58,6 +58,16 @@ a:not(.japanLogo):hover {
 	height: 20%;
 	width: 20%;
 }
+.japanNight {
+	padding: 10px;
+	height: 20%;
+	width: 20%;
+}
+.japanSakura {
+	padding: 10px;
+	height: 20%;
+	width: 20%;
+}
 .article > .article1 > p {
 	text-align: start;
 }

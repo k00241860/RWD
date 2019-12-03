@@ -35,7 +35,9 @@ a:not(.japanLogo):hover {
 }
 .main > .article > .article1,
 .main > .article > .article2,
-.main > .article > .article3 {
+.main > .article > .article3,
+.main > .article > .article4,
+.main > .article > .article5 {
   border: 2px solid darkred;
   flex-direction: row;
 }
@@ -58,11 +60,15 @@ a:not(.japanLogo):hover {
 	height: 20%;
 	width: 20%;
 }
-.article > .article1 > p,
-.article > .article2 > p,
-.article > .article3 > p{
-	background: beige;
-	text-align: start;
+.japanNight {
+	padding: 10px;
+	height: 20%;
+	width: 20%;
+}
+.japanSakura {
+	padding: 10px;
+	height: 20%;
+	width: 20%;
 }
 .image {
   width: 100%;
